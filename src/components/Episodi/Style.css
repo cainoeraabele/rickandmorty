@@ -1,0 +1,45 @@
+.card{
+    position: relative;
+}
+.info_box h2{
+    margin: 0px;
+}
+.boxFunction{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: #00000042;
+}
+
+.show{
+    position: absolute;
+    border: none;
+    background: black;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.show:hover{
+    background: #53ff11;
+    color: black;
+}
+
+.like{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
